@@ -2,6 +2,8 @@
 
 ## Unreleased
 
++ [修复] 补充 New API ecosystem 实际响应缺少 CORS 头时的同源代理方案，避免浏览器无法读取账户配置。
+
 ## v0.10.1 - 2026-07-25
 
 + [新增] 支持 EggAi / Logto 单页应用 PKCE 登录，并在登录后自动导入当前用户的 New API 模型与令牌。
